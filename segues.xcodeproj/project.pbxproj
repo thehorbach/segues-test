@@ -12,6 +12,7 @@
 		11DA55A81C8C85F50094F78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA55A61C8C85F50094F78B /* Main.storyboard */; };
 		11DA55AA1C8C85F50094F78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DA55A91C8C85F50094F78B /* Assets.xcassets */; };
 		11DA55AD1C8C85F50094F78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA55AB1C8C85F50094F78B /* LaunchScreen.storyboard */; };
+		11DA55B51C8C8CD80094F78B /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA55B41C8C8CD80094F78B /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		11DA55A91C8C85F50094F78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DA55AC1C8C85F50094F78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DA55AE1C8C85F50094F78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DA55B41C8C8CD80094F78B /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				11DA55A91C8C85F50094F78B /* Assets.xcassets */,
 				11DA55AB1C8C85F50094F78B /* LaunchScreen.storyboard */,
 				11DA55AE1C8C85F50094F78B /* Info.plist */,
+				11DA55B41C8C8CD80094F78B /* GreenViewController.swift */,
 			);
 			path = segues;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA55B51C8C8CD80094F78B /* GreenViewController.swift in Sources */,
 				11DA55A51C8C85F50094F78B /* ViewController.swift in Sources */,
 				11DA55A31C8C85F50094F78B /* AppDelegate.swift in Sources */,
 			);
